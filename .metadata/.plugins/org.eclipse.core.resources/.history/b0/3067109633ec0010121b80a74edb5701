@@ -1,0 +1,16 @@
+
+public class Possibilidade {
+	public static void main(String[] args) {
+		int hora = 10;
+		
+		if(hora < 12) {
+			System.out.println("Bom dia!");
+		}if(12 <= hora && hora< 18) {
+			System.out.println("Boa Tarde");
+		}if(hora >=18) {
+			System.out.println("Boa Noite");
+		}
+		
+	}
+
+}

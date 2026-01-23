@@ -1,0 +1,10 @@
+
+public class OperadorTernario {
+
+	public static void main(String[] args) {
+		String expressao = (10 > 8) ? "verdadeiro": "falso";
+		System.out.println(expressao);
+
+	}
+
+}
