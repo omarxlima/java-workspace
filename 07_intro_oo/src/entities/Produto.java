@@ -1,14 +1,34 @@
 package entities;
 
 public class Produto {
-	public String nome;
-	public double preco;
-	public int quantidade;
+	private String nome;
+	private double preco;
+	private int quantidade;
 	
 	public double valorTotalEstoque() {
 		return preco * quantidade;
 	}
 	
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public double getPreco() {
+		return preco;
+	}
+
+	public void setPreco(double preco) {
+		this.preco = preco;
+	}
+
+	public int getQuantidade() {
+		return quantidade;
+	}
+
 	public void addProdutos(int quantidade) {
 		this.quantidade += quantidade;
 	}
